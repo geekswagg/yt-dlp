@@ -1,5 +1,5 @@
 ARG BUILDIMAGE=ghcr.io/yt-dlp/manylinux2014_x86_64-shared:latest
-ARG VERIFYIMAGE=alpine:3.22
+ARG VERIFYIMAGE=alpine:3.23.2
 
 
 FROM $BUILDIMAGE AS build
